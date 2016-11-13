@@ -1,0 +1,10 @@
+name: SupplyCrates
+main: com.core.srs.supplycrates.main.Main
+version: 1.0
+commands:
+  givecrate:
+    description: /givecrate or /gc
+    usage: /givecrate
+  gc:
+    description: /givecrate or /gc
+    usage: /givecrate

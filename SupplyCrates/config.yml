@@ -1,0 +1,130 @@
+##############
+### Config ###
+##############
+Config:
+    Material: CHEST
+    DisplayName: '&7&l???'
+    Lores: {}
+    RegularGlassPane: STAINED_GLASS_PANE
+################
+### Messages ###
+################
+Messages:
+    ReceivedCrate: '&7You have received a &a{CRATE} &7crate!'
+#####################
+### Supply Crates ###
+#####################
+SupplyCrates:
+    Crates:
+    - Vote
+    - Common
+    - Ultra
+    - Rare
+    - Legendary
+    Vote:
+        Glass_Pane: STAINED_GLASS_PANE:5
+        GlassDisplayName: '&aVote'
+        Cycle: true                     ## Do you want it to use other crates' chances of winning or do you want them to just win items from this crate?
+        Chances:
+        - 100
+        - 40
+        - 25
+        - 20
+        - 5
+        ChestSize: 27                   ## Multiples of 9
+        DisplayName: '&aVote'
+        Title: '&aVote'
+        Picks: 3
+        Lores:
+        - '&cLores'
+        Items:                          ## Material, Amount, Chance, DisplayName, Lores, Enchants
+        - 'GOLD_INGOT, 8, 100, &fGold Ingot'
+        - 'TNT, 16, 70, &fTNT'
+        - 'OBSIDIAN, 32, 50, &fObsidian'
+        - 'IRON_INGOT, 16, 45, &fIron Ingot'
+        - 'EXP_BOTTLE, 32, 40, &fBottle o Enchanting'
+        - 'DIAMOND, 10, 35, &fDiamond, &41st Lore // &22nd Lore'
+        - 'DIAMOND_CHESTPLATE, 1, 10, &aVote Chest, &9Lucky, PROTECTION_ENVIRONMENTAL:1'
+        - 'DIAMOND_SWORD, 1, 5, &aVote Sword, &4Vote Sword, DAMAGE_ALL:3 // FIRE_ASPECT:2'
+        - 'BEACON, 1, 3, &fBeacon'
+    Common:
+        Glass_Pane: STAINED_GLASS_PANE:0
+        GlassDisplayName: '&7Common'
+        Cycle: true                     ## Do you want it to use other crates' chances of winning or do you want them to just win items from this crate?
+        Chances:
+        - 1
+        - 100
+        - 1
+        - 1
+        - 1
+        ChestSize: 27                   ## Multiples of 9
+        DisplayName: '&7Common'
+        Title: '&7Common'
+        Picks: 3
+        Lores:
+        - '&cLores'
+        Items:                          ## Material, Amount, Chance, DisplayName, Lores, Enchants
+        - 'MONSTER_EGG:50, 1, 100'
+    Ultra:
+        Glass_Pane: STAINED_GLASS_PANE:11
+        GlassDisplayName: '&dUltra'
+        Cycle: true                     ## Do you want it to use other crates' chances of winning (true) or do you want them to just win items from this crate? (false)
+        Chances:
+        - 100
+        - 40
+        - 25
+        - 20
+        - 5
+        ChestSize: 54                   ## Multiples of 9
+        DisplayName: '&dUltra'
+        Title: '&dUltra'
+        Picks: 2
+        Lores:
+        - '&cLores'
+        Items:                          ## Material, Amount, Chance, DisplayName, Lores, Enchants
+        - 'DIAMOND_SWORD, 1, 100, &6DisplayName, &41st Lore // &22nd Lore, DAMAGE_ALL:3 // FIRE_ASPECT:2'
+        - 'DIAMOND, 1, 70, &6DisplayName, &41st Lore // &22nd Lore'
+        - 'DIAMOND, 1, 60, &6DisplayName, &41st Lore // &22nd Lore'
+        - 'DIAMOND, 1, 40, &6DisplayName, &41st Lore // &22nd Lore'
+    Rare:
+        Glass_Pane: STAINED_GLASS_PANE:2
+        GlassDisplayName: '&cRare'
+        Cycle: true                     ## Do you want it to use other crates' chances of winning or do you want them to just win items from this crate?
+        Chances:
+        - 100
+        - 40
+        - 25
+        - 20
+        - 5
+        ChestSize: 54                   ## Multiples of 9
+        DisplayName: '&cRare'
+        Title: '&cRare'
+        Picks: 4
+        Lores:
+        - '&cLores'
+        Items:                          ## Material, Amount, Chance, DisplayName, Lores, Enchants
+        - 'DIAMOND_SWORD, 1, 100, &6DisplayName, &41st Lore // &22nd Lore, DAMAGE_ALL:3 // FIRE_ASPECT:2'
+        - 'DIAMOND, 1, 100, &6DisplayName, &41st Lore // &22nd Lore'
+        - 'DIAMOND, 1, 100, &6DisplayName, &41st Lore // &22nd Lore'
+        - 'DIAMOND, 1, 100, &6DisplayName, &41st Lore // &22nd Lore'
+    Legendary:
+        Glass_Pane: STAINED_GLASS_PANE:14
+        GlassDisplayName: '&bLegendary'
+        Cycle: true                     ## Do you want it to use other crates' chances of winning or do you want them to just win items from this crate?
+        Chances:
+        - 100
+        - 40
+        - 25
+        - 20
+        - 5
+        ChestSize: 54                   ## Multiples of 9
+        DisplayName: '&bLegendary'
+        Title: '&bLegendary'
+        Picks: 8
+        Lores:
+        - '&cLores'
+        Items:                          ## Material, Amount, Chance, DisplayName, Lores, Enchants
+        - 'DIAMOND_SWORD, 100, 5, &6DisplayName, &41st Lore // &22nd Lore, DAMAGE_ALL:3 // FIRE_ASPECT:2'
+        - 'DIAMOND, 1, 100, &6DisplayName, &41st Lore // &22nd Lore'
+        - 'DIAMOND, 1, 100, &6DisplayName, &41st Lore // &22nd Lore'
+        - 'DIAMOND, 1, 100, &6DisplayName, &41st Lore // &22nd Lore'
