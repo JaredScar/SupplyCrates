@@ -1,5 +1,7 @@
 # SupplyCrates
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <h2>Purchase</h2>
 
 [Buy it here] (http://www.mc-market.org/threads/34246/)
